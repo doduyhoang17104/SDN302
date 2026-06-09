@@ -1,0 +1,341 @@
+.my-toys-page {
+  min-height: 100vh;
+  background-color: #f7f9fc;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-toys-container {
+  max-width: 75%; /* Increased width to reduce side gaps */
+  margin: 30px auto;
+  padding: 0 24px;
+  width: 90%;
+  flex: 1;
+}
+
+.page-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1d23;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.btn-add-toy {
+  background: white;
+  color: #ff5f93;
+  border: 1px solid #ff5f93;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.btn-add-toy:hover {
+  background: #fff0f5;
+  transform: translateY(-1px);
+}
+
+.toys-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.toy-card-item {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+  border: 1px solid #eef0f3;
+  display: flex;
+  height: 220px; /* Increased height significantly */
+  transition: all 0.2s ease;
+  align-items: center;
+}
+
+.toy-card-item:hover {
+  border-color: #ffcae0;
+  box-shadow: 0 8px 16px rgba(255, 95, 147, 0.08);
+  transform: translateX(4px);
+}
+
+.toy-image-wrapper {
+  width: 240px; /* Increased width significantly */
+  height: 100%;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.toy-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.toy-content-row {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1fr auto;
+  align-items: center;
+  padding: 0 32px; /* Increased padding */
+  gap: 20px;
+  height: 100%;
+}
+
+.toy-info-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+
+.toy-category-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #8a94a6;
+  margin-bottom: 8px;
+}
+
+.toy-name {
+  font-size: 18px; /* Larger font size */
+  font-weight: 700;
+  color: #2d333a;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.toy-status-col {
+  display: flex;
+  align-items: center;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 99px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.status-available {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.status-pill.status-available::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #166534;
+}
+
+.status-rented {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.status-pill.status-rented::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #991b1b;
+}
+
+.toy-price-col {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.price-label {
+  display: block;
+  font-size: 12px;
+  color: #9ca3af;
+  margin-bottom: 4px;
+}
+
+.price-value {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff5f93;
+}
+
+.toy-actions-col {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-icon-action {
+  width: 44px; /* Larger buttons */
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: #f8f9fa;
+  color: #64748b;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.btn-icon-action:hover {
+  background: #fff;
+  border-color: #e2e8f0;
+  color: #0f172a;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+.btn-icon-action.delete:hover {
+  background: #fef2f2;
+  border-color: #fecaca;
+  color: #ef4444;
+}
+
+/* Modal Simple Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1060;
+  backdrop-filter: blur(2px);
+}
+
+.modal-content-custom {
+  background: white;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-header {
+  padding: 24px;
+  border-bottom: 1px solid #eee9ee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn-close-modal {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #8a8690;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.modal-body {
+  padding: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #57535a;
+  margin-bottom: 8px;
+}
+
+.form-control-custom {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-control-custom:focus {
+  border-color: #ff5f93;
+}
+
+.form-select-custom {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  background-color: white;
+}
+
+.modal-footer {
+  padding: 24px;
+  border-top: 1px solid #eee9ee;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.btn-cancel {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: white;
+  font-weight: 600;
+  color: #57535a;
+}
+
+.btn-submit {
+  padding: 10px 24px;
+  border-radius: 10px;
+  border: none;
+  background: #ff5f93;
+  color: white;
+  font-weight: 600;
+}

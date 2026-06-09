@@ -1,0 +1,227 @@
+[{
+  "_id": {
+    "$oid": "69c4b5cdb616064912a00606"
+  },
+  "userId": {
+    "$oid": "69b44f6e45858f4934db1d6b"
+  },
+  "toyId": {
+    "$oid": "69c3a55239ae0dfbc280d673"
+  },
+  "ownerId": {
+    "$oid": "69b032d3377a29ed4c3d6fb1"
+  },
+  "name": "Đỗ Duy Hải",
+  "phone": "0986374177",
+  "shippingAddress": "Xóm 6,Giao Thịnh,Giao Thủy,Nam Định",
+  "price": 55000,
+  "deposit": 200000,
+  "shippingFee": 15000,
+  "status": "completed",
+  "returnDate": {
+    "$date": "2026-03-26T04:28:20.103Z"
+  },
+  "createdAt": {
+    "$date": "2026-03-26T04:27:57.685Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T04:31:33.742Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c60ace9a447dd32861552b"
+  },
+  "userId": {
+    "$oid": "69b44f6e45858f4934db1d6b"
+  },
+  "toyId": {
+    "$oid": "69c3a55239ae0dfbc280d672"
+  },
+  "ownerId": {
+    "$oid": "69b44f6e45858f4934db1d6b"
+  },
+  "name": "Đỗ Duy Hải",
+  "phone": "0986374177",
+  "shippingAddress": "xóm 6",
+  "price": null,
+  "deposit": 100000,
+  "shippingFee": 15000,
+  "status": "pending",
+  "returnDate": null,
+  "createdAt": {
+    "$date": "2026-03-27T04:42:54.358Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T04:42:54.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c6247b00fec3520c87994f"
+  },
+  "userId": {
+    "$oid": "69b44f6e45858f4934db1d6b"
+  },
+  "toyId": {
+    "$oid": "69c3a55239ae0dfbc280d670"
+  },
+  "name": "Đỗ Duy Hải",
+  "phone": "0986374177",
+  "shippingAddress": "123",
+  "price": null,
+  "deposit": 220000,
+  "shippingFee": 15000,
+  "status": "rejected",
+  "returnDate": null,
+  "createdAt": {
+    "$date": "2026-03-27T06:32:27.947Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T07:14:55.279Z"
+  },
+  "__v": 0,
+  "feedback": ""
+},
+{
+  "_id": {
+    "$oid": "69c6297cd2c4b33acc30cc5a"
+  },
+  "userId": {
+    "$oid": "69b032d3377a29ed4c3d6fb1"
+  },
+  "toyId": {
+    "$oid": "69c3a55239ae0dfbc280d670"
+  },
+  "name": "Đỗ Duy Hoàng",
+  "phone": "0394855685",
+  "shippingAddress": "12345",
+  "deposit": 220000,
+  "shippingFee": 15000,
+  "status": "rejected",
+  "returnDate": null,
+  "createdAt": {
+    "$date": "2026-03-27T06:53:48.267Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T07:14:59.764Z"
+  },
+  "__v": 0,
+  "feedback": ""
+},
+{
+  "_id": {
+    "$oid": "69c629fdb05d403244cead7a"
+  },
+  "userId": {
+    "$oid": "69b44f6e45858f4934db1d6b"
+  },
+  "toyId": {
+    "$oid": "69c3a55239ae0dfbc280d670"
+  },
+  "name": "Đỗ Duy Hải",
+  "phone": "0986374177",
+  "shippingAddress": "bvc",
+  "deposit": 220000,
+  "shippingFee": 15000,
+  "status": "completed",
+  "returnDate": {
+    "$date": "2026-03-27T07:01:47.799Z"
+  },
+  "createdAt": {
+    "$date": "2026-03-27T06:55:57.503Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T07:02:02.685Z"
+  },
+  "__v": 0,
+  "price": 60000
+},
+{
+  "_id": {
+    "$oid": "69c62be3b05d403244ceadb9"
+  },
+  "userId": {
+    "$oid": "69b032d3377a29ed4c3d6fb1"
+  },
+  "toyId": {
+    "$oid": "69c3a55239ae0dfbc280d66e"
+  },
+  "name": "Đỗ Duy Hoàng",
+  "phone": "0394855685",
+  "shippingAddress": "789",
+  "deposit": 200000,
+  "shippingFee": 15000,
+  "status": "completed",
+  "returnDate": {
+    "$date": "2026-03-27T07:05:02.254Z"
+  },
+  "createdAt": {
+    "$date": "2026-03-27T07:04:03.702Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T07:05:42.596Z"
+  },
+  "__v": 0,
+  "price": 50000
+},
+{
+  "_id": {
+    "$oid": "69c62c750093e5fc302fbb7d"
+  },
+  "userId": {
+    "$oid": "69b032d3377a29ed4c3d6fb1"
+  },
+  "toyId": {
+    "$oid": "69c3a55239ae0dfbc280d672"
+  },
+  "feedback": "đồ chơi tốt",
+  "name": "Đỗ Duy Hoàng",
+  "phone": "0394855685",
+  "shippingAddress": "Giao Ninh",
+  "deposit": 100000,
+  "shippingFee": 15000,
+  "status": "completed",
+  "returnDate": {
+    "$date": "2026-03-27T07:06:51.998Z"
+  },
+  "createdAt": {
+    "$date": "2026-03-27T07:06:29.723Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T07:07:18.331Z"
+  },
+  "__v": 0,
+  "price": 30000
+},
+{
+  "_id": {
+    "$oid": "69c62d077a367949228d8fd8"
+  },
+  "userId": {
+    "$oid": "69b44f6e45858f4934db1d6b"
+  },
+  "toyId": {
+    "$oid": "69c3a55239ae0dfbc280d671"
+  },
+  "feedback": "tốt",
+  "name": "Đỗ Duy Hải",
+  "phone": "0986374177",
+  "shippingAddress": "Nam Định",
+  "deposit": 150000,
+  "shippingFee": 15000,
+  "status": "completed",
+  "returnDate": {
+    "$date": "2026-03-27T07:16:09.899Z"
+  },
+  "createdAt": {
+    "$date": "2026-03-27T07:08:55.356Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T07:16:25.349Z"
+  },
+  "__v": 0,
+  "price": 40000
+}]

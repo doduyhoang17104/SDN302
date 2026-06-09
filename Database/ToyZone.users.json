@@ -1,0 +1,74 @@
+[{
+  "_id": {
+    "$oid": "69b032d3377a29ed4c3d6fb1"
+  },
+  "name": "Đỗ Duy Hoàng",
+  "email": "hoangdo171004@gmail.com",
+  "username": "hoangdo1710",
+  "password": "$2b$10$HteKfXH7ewAYALBp9MpJxeTKFmHqsptajT8vjUqHr2hU2Y3et2QIi",
+  "address": "Nam Định",
+  "createdAt": {
+    "$date": "2026-03-10T15:03:47.644Z"
+  },
+  "__v": 0,
+  "otp": "227589",
+  "otpExpire": {
+    "$date": "2026-03-13T06:04:45.141Z"
+  },
+  "phone": "0394855685",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjAzMmQzMzc3YTI5ZWQ0YzNkNmZiMSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3ODczMjQ0MywiZXhwIjoxNzc5MzM3MjQzfQ.aHhkib7UePB4qBF7kkgJpekvJn4Mu1ILsA7k63QjCWQ",
+  "updatedAt": {
+    "$date": "2026-05-14T04:20:43.155Z"
+  },
+  "bank_name": "MBBank",
+  "bank_number": "0394855685",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "69b44f6e45858f4934db1d6b"
+  },
+  "name": "Đỗ Duy Hải",
+  "email": "haido@gmail.com",
+  "username": "haido",
+  "password": "$2b$10$Zql3pWr1Ij3ontb1vexcAuBECOggZYapQi5/vAoNp5XpYQElWEpRy",
+  "address": "Hà Nam",
+  "phone": "0986374177",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjQ0ZjZlNDU4NThmNDkzNGRiMWQ2YiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzc0NTkzNDE4LCJleHAiOjE3NzUxOTgyMTh9.a8E_b5GqrcfIWUSjeUm87ZmrB_Dse3tXxQOSP4wGR6o",
+  "otp": null,
+  "otpExpire": null,
+  "createdAt": {
+    "$date": "2026-03-13T17:54:54.720Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T06:36:58.018Z"
+  },
+  "__v": 0,
+  "bank_name": "MBBank",
+  "bank_number": "0367140850",
+  "role": "user"
+},
+{
+  "_id": {
+    "$oid": "69c3b0ae9cd78287186dec27"
+  },
+  "name": "ADMIN",
+  "email": "admin@gmail.com",
+  "username": "admin",
+  "password": "$2b$10$GSxg8a8gM1qqLtt2puBnxuOPE1OtzUd0eDnOm290dW2.aQLYPjNDa",
+  "address": "Hà Giang",
+  "phone": "0367140850",
+  "bank_name": "",
+  "bank_number": "",
+  "role": "admin",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzNiMGFlOWNkNzgyODcxODZkZWMyNyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NDQzMjQ0OSwiZXhwIjoxNzc1MDM3MjQ5fQ.NtRK62G_wqUqKDlGqn3wJnIJWt-EVItT42GWcDZmMfY",
+  "otp": null,
+  "otpExpire": null,
+  "createdAt": {
+    "$date": "2026-03-25T09:53:50.265Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-25T09:54:09.619Z"
+  },
+  "__v": 0
+}]

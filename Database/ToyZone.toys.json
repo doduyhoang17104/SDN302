@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "69c3a55239ae0dfbc280d66e"
+  },
+  "name": "Xe điều khiển từ xa",
+  "category": "Vehicle",
+  "price": 50000,
+  "deposit": 200000,
+  "description": "Xe điều khiển chạy pin, phù hợp cho bé 6+",
+  "image": "https://res.cloudinary.com/dwfemikza/image/upload/v1774429687/toy-sharing/y0c3w4d80arlzgmsglzp.png",
+  "status": "available",
+  "owner": {
+    "$oid": "69b44f6e45858f4934db1d6b"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T07:05:42.597Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c3a55239ae0dfbc280d66f"
+  },
+  "name": "Robot biến hình",
+  "category": "Robot",
+  "price": 70000,
+  "deposit": 250000,
+  "description": "Robot có thể biến hình thành xe",
+  "image": "https://res.cloudinary.com/dwfemikza/image/upload/v1774429745/toy-sharing/j4jnq7lq1vgo7nmgjmzp.png",
+  "status": "available",
+  "owner": {
+    "$oid": "69b44f6e45858f4934db1d6b"
+  },
+  "updatedAt": {
+    "$date": "2026-03-25T09:09:06.331Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c3a55239ae0dfbc280d670"
+  },
+  "name": "Bộ Lego City",
+  "category": "Lego",
+  "price": 60000,
+  "deposit": 220000,
+  "description": "Bộ lắp ráp thành phố Lego",
+  "image": "https://res.cloudinary.com/dwfemikza/image/upload/v1774430102/toy-sharing/phzjwl5emz7mgtgvuye2.png",
+  "status": "available",
+  "owner": {
+    "$oid": "69b032d3377a29ed4c3d6fb1"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T07:14:59.767Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c3a55239ae0dfbc280d671"
+  },
+  "name": "Búp bê Elsa",
+  "category": "Doll",
+  "price": 40000,
+  "deposit": 150000,
+  "description": "Búp bê Elsa trong Frozen",
+  "image": "https://res.cloudinary.com/dwfemikza/image/upload/v1774430154/toy-sharing/vwmjdygrwvlz9itviods.png",
+  "status": "available",
+  "owner": {
+    "$oid": "69b032d3377a29ed4c3d6fb1"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T07:16:25.354Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c3a55239ae0dfbc280d672"
+  },
+  "name": "Bộ xếp hình gỗ",
+  "category": "Puzzle",
+  "price": 30000,
+  "deposit": 100000,
+  "description": "Đồ chơi xếp hình bằng gỗ cho bé",
+  "image": "https://res.cloudinary.com/dwfemikza/image/upload/v1774429916/toy-sharing/j2vuutb559z5nuxrwola.png",
+  "status": "available",
+  "owner": {
+    "$oid": "69b44f6e45858f4934db1d6b"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T07:07:18.332Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c3a55239ae0dfbc280d673"
+  },
+  "name": "Khủng long điều khiển",
+  "category": "Animal",
+  "price": 55000,
+  "deposit": 200000,
+  "description": "Khủng long có thể di chuyển và phát âm thanh",
+  "image": "https://res.cloudinary.com/dwfemikza/image/upload/v1774430260/toy-sharing/ysohfqub8kveqbvoew8p.png",
+  "status": "available",
+  "owner": {
+    "$oid": "69b032d3377a29ed4c3d6fb1"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T04:31:33.746Z"
+  }
+}]
